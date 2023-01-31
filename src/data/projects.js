@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    title: "Jason Agri Exports (PVT) Limited",
+    thumbnail: "/projects/jason-agri.png",
+    url: "https://jasonagriexports.com/",
+    stack: "Next.JS (React)",
+    category: "Business",
+  },
+  {
+    title: "Pilawala National School Website",
+    thumbnail: "/projects/pilawala-ns.png",
+    url: "https://pillawalamv.netlify.app/",
+    stack: "HTML",
+    category: "Education",
+  },
+  {
+    title: "Shellin Store",
+    thumbnail: "/projects/shellin.png",
+    url: "https://justonroad.xyz:8090/preview/shellin.justonroad.xyz/store/index.php",
+    stack: "PHP",
+    category: "E-Commerce",
+  },
+  {
+    title: "Pixel1080",
+    thumbnail: "/projects/pixel1080.png",
+    url: "https://pixel1080.dynamicbiz.org.lk",
+    stack: "Next.JS (React)",
+    category: "Other",
+  },
+  {
+    title: "eCommerce Web Template",
+    thumbnail: "/projects/new-tech.png",
+    url: "https://gamestoree.epizy.com/?i=1",
+    stack: "PHP",
+    category: "E-Commerce",
+  },
+  {
+    title: "PiXMart",
+    thumbnail: "/projects/pixmart.png",
+    url: "https://pixbin.rf.gd",
+    stack: "PHP",
+    category: "E-Commerce",
+  },
+  {
+    title: "Cafe Web Template",
+    thumbnail: "/projects/yellow-cafe.png",
+    url: "https://yellow-cafe.vercel.app",
+    stack: "Next.JS (React)",
+    category: "Business",
+  },
+  {
+    title: "Construction Company Web",
+    thumbnail: "/projects/construction-company-web.png",
+    url: "https://construction-company-web.vercel.app",
+    stack: "HTML",
+    category: "Business",
+  },
+];
