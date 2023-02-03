@@ -7,7 +7,7 @@ const Services = () => {
     <section className="container max-w-6xl scroll-smooth my-20 sm:my-8 sm:h-fit">
       <div className="flex flex-row-reverse mt-16 gap-12 md:gap-6 sm:flex-col">
         <div className="max-w-md md:max-w-sm">
-          <h2 className="text-4xl uppercase text-neutral-300 mb-8">We Do Everything</h2>
+          <h2 className="text-4xl uppercase text-neutral-300 mb-8">We Slove Problems</h2>
           <p className="mt-8 text-lg">
             For everyone looking to benefit from digital technology, we are offering innovation with an emphasis on creating dynamic web, mobile, desktop application, and system solutions.
           </p>
