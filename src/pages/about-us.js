@@ -19,6 +19,9 @@ const AboutUsPage = () => {
       <main>
         <section className="relative h-[30rem] w-full">
           <Image alt="BG Image" src="/about-bg.jpg" className="object-cover" fill />
+          {/* <video className="w-full h-full object-cover" autoPlay loop muted controls>
+            <source src="/intro.mp4" type="video/mp4" />
+          </video> */}
           <div className="absolute top-0 left-0 w-full h-full bg-black/60" />
           <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black" />
           <h2 className="container absolute top-1/2 left-0 right-0 w-fit m-auto text-7xl text-center text-white font-bold sm:text-6xl">This Is Our Story</h2>
@@ -73,7 +76,7 @@ const AboutUsPage = () => {
           </div>
         </section>
 
-        <section className="container max-w-6xl text-lg my-20 sm:my-12">
+        {/* <section className="container max-w-6xl text-lg my-20 sm:my-12">
           <h1 className="text-2xl uppercase text-neutral-300 mb-8">People who run the show</h1>
 
           <Swiper
@@ -108,7 +111,7 @@ const AboutUsPage = () => {
               );
             })}
           </Swiper>
-        </section>
+        </section> */}
       </main>
     </>
   );

@@ -35,6 +35,9 @@ const Navbar = () => {
     {
       title: "Portfolio",
       dest: "/portfolio",
+    },{
+      title: "Blog",
+      dest: "/blog",
     },
     {
       title: "Contact Us",
@@ -78,8 +81,8 @@ const Navbar = () => {
       <button className="hidden md:block" onClick={() => handleMobileNav()} aria-label="Hamberger Menu Button">
         <>
           {showMobileNav ? (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2 " class="w-8 h-8" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2 " className="w-8 h-8" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
           ) : (
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">

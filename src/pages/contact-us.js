@@ -124,27 +124,27 @@ const ContactPage = () => {
                 </label>
 
                 <div className="space-y-1 mt-4">
-                  <div class="flex items-center pl-4 border">
-                    <input id="bordered-radio-1" type="radio" name="bordered-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
-                    <label for="bordered-radio-1" class="w-full py-2 ml-2">
+                  <div className="flex items-center pl-4 border">
+                    <input id="bordered-radio-1" type="radio" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
+                    <label for="bordered-radio-1" className="w-full py-2 ml-2">
                       Landing Page
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 border">
-                    <input id="bordered-radio-1" type="radio" name="bordered-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
-                    <label for="bordered-radio-1" class="w-full py-2 ml-2">
+                  <div className="flex items-center pl-4 border">
+                    <input id="bordered-radio-1" type="radio" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
+                    <label for="bordered-radio-1" className="w-full py-2 ml-2">
                       Business Website
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 border">
-                    <input id="bordered-radio-1" type="radio" name="bordered-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
-                    <label for="bordered-radio-1" class="w-full py-2 ml-2">
+                  <div className="flex items-center pl-4 border">
+                    <input id="bordered-radio-1" type="radio" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
+                    <label for="bordered-radio-1" className="w-full py-2 ml-2">
                       E-commerce Website
                     </label>
                   </div>
-                  <div class="flex items-center pl-4 border">
-                    <input id="bordered-radio-1" type="radio" name="bordered-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
-                    <label for="bordered-radio-1" class="w-full py-2 ml-2">
+                  <div className="flex items-center pl-4 border">
+                    <input id="bordered-radio-1" type="radio" name="bordered-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 " />
+                    <label for="bordered-radio-1" className="w-full py-2 ml-2">
                       Custom Solution
                     </label>
                   </div>

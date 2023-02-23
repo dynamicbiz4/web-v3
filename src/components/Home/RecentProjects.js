@@ -11,7 +11,7 @@ const RecentProjects = () => {
           <div>
             <h2 className="text-4xl uppercase text-neutral-300 mb-8">Our latest projects</h2>
             <p className="mt-8 text-lg">The professional designers and developers from Dynamic Biz will work on your project and will only do so in accordance with your particular specifications.</p>
-            <Link href="services">
+            <Link href="/portfolio">
               <button className="mt-4 btn">View All</button>
             </Link>
           </div>

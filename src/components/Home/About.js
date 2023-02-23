@@ -9,7 +9,7 @@ const About = () => {
     <section className="container max-w-6xl overflow-x-hidden scroll-smooth my-20 sm:my-8">
       <div className="my-8 flex gap-8 md:flex-col">
         <div className="flex-1 text-lg">
-          <h2 className="text-4xl uppercase text-neutral-300 mb-8">We are experts in our works</h2>
+          <h2 className="text-4xl uppercase text-neutral-300 mb-8">We are inspired to empower great people</h2>
           <p>We are a company driven by innovation with a focus on developing dynamic web, mobile & desktop application solutions for anyone wants to take advantage of digital technologies.</p>
           <p>From idea discussion to deployment of the solution - we will take full responsibility to make our clients happy.</p>
 

@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.1.2",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/image-url": "^1.0.1",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
     "framer-motion": "^8.4.1",

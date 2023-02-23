@@ -1,4 +1,5 @@
 import "../styles/globals.scss";
+import "../styles/reset.scss";
 import { ThemeProvider } from "next-themes";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
