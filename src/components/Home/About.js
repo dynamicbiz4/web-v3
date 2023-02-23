@@ -1,10 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import { stats } from "../../data/stats";
 import experts from "../../../public/experts.webp";
 import Image from "next/image";
 
-const About = () => {
+const About = ({ stats }) => {
   return (
     <section className="container max-w-6xl overflow-x-hidden scroll-smooth my-20 sm:my-8">
       <div className="my-8 flex gap-8 md:flex-col">
@@ -26,17 +25,29 @@ const About = () => {
       {/* <h2 className="text-4xl uppercase text-neutral-300 text-center mt-20">The Stats</h2> */}
 
       <div className="grid grid-cols-3 gap-16 my-12 text-center md:grid-cols-2 md:gap-8 sm:grid-cols-1 sm:gap-8">
-        {stats.map(({ title, count }, index) => {
-          return (
-            <div className="bg-gradient-to-tr from-transparent to-neutral-900 p-6" key={index}>
-              <div className="flex justify-center">
-                <h1 className="text-7xl font-bold">{count}</h1>
-                <p className="text-4xl font-bold ml-2">+</p>
-              </div>
-              <h2 className="text-2xl mt-2">{title}</h2>
-            </div>
-          );
-        })}
+        <div className="bg-gradient-to-tr from-transparent to-neutral-900 p-6">
+          <div className="flex justify-center">
+            <h1 className="text-7xl font-bold">{stats.clients}</h1>
+            <p className="text-4xl font-bold ml-2">+</p>
+          </div>
+          <h2 className="text-2xl mt-2">Happy Clients</h2>
+        </div>
+
+        <div className="bg-gradient-to-tr from-transparent to-neutral-900 p-6">
+          <div className="flex justify-center">
+            <h1 className="text-7xl font-bold">{stats.ongoingProjects}</h1>
+            <p className="text-4xl font-bold ml-2">+</p>
+          </div>
+          <h2 className="text-2xl mt-2">Ongoing Projects</h2>
+        </div>
+
+        <div className="bg-gradient-to-tr from-transparent to-neutral-900 p-6">
+          <div className="flex justify-center">
+            <h1 className="text-7xl font-bold">{stats.completedProjects}</h1>
+            <p className="text-4xl font-bold ml-2">+</p>
+          </div>
+          <h2 className="text-2xl mt-2">Completed Projects</h2>
+        </div>
       </div>
     </section>
   );

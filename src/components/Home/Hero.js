@@ -91,9 +91,9 @@ const Hero = () => {
           />
         </svg>
       </div>
-      <div className="container max-w-6xl absolute bottom-10 left-0 right-0 text-center">
+      <div className="container max-w-6xl absolute bottom-10 left-0 right-0">
         <h1 className="text-hero-head font-semibold leading-hero md:text-7xl sm:text-6xl">We Create Digital Solutions for Your Problems!</h1>
-        <p className="text-2xl max-w-3xl text-neutral-300 mt-2 md:text-xl sm:text-lg m-auto">From ideation to product growth, we can help you at every stage of the product development lifecycle.</p>
+        <p className="text-2xl max-w-2xl text-neutral-300 mt-2 md:text-xl sm:text-lg">From ideation to product growth, we can help you at every stage of the product development lifecycle.</p>
         <Link href="/contact-us">
           <button className="mt-4 btn">Have a Project?</button>
         </Link>

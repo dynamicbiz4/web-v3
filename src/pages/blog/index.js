@@ -29,15 +29,15 @@ const BlogPage = ({ posts }) => {
 
         <section className="container max-w-6xl text-xl my-20 sm:text-lg">
           <div className="mt-8 grid grid-cols-3 gap-8 xmd:grid-cols-2 sm:grid-cols-1">
-            {posts.map(({ title, publishedAt, mainImage, slug, excerpt }, index) => {
+            {posts.slice(0, 3).map(({ title, publishedAt, mainImage, slug, excerpt }, index) => {
               var date = new Date(publishedAt);
 
               return (
                 <Link href={`/blog/${slug.current}`} key={index}>
-                  <div className="bg-neutral-900">
+                  <div className="bg-neutral-900 h-full">
                     {mainImage && (
                       <div className="relative h-56 w-full">
-                        <Image src={imgBuilder.image(mainImage).url()} className="w-full h-auto object-cover" alt={title} fill />
+                        <Image src={imgBuilder.image(mainImage).url()} className="w-full h-auto object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt={title} fill />
                       </div>
                     )}
 

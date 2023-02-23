@@ -1,9 +1,14 @@
+import ImageUrlBuilder from "@sanity/image-url";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { projects } from "../../data/projects";
 
-const RecentProjects = () => {
+const RecentProjects = ({ projects }) => {
+  const imgBuilder = ImageUrlBuilder({
+    projectId: "8hblij9d",
+    dataset: "production",
+  });
+
   return (
     <section className="container max-w-6xl overflow-x-hidden scroll-smooth my-20 sm:my-8">
       <div className="flex flex-row-reverse mt-16 gap-12">
@@ -16,11 +21,17 @@ const RecentProjects = () => {
             </Link>
           </div>
 
-          {projects.slice(0, 3).map(({ title, thumbnail, url, stack }, index) => {
+          {projects.slice(0, 3).map(({ title, mainImage }, index) => {
             return (
               <div className={`flex flex-col`} key={index}>
                 <div className="overflow-hidden relative">
-                  <Image src={thumbnail} width={400} height={200} className="w-full h-full object-cover hover:scale-105 duration-200 transition-transform ease-in-out" alt={title} />
+                  <Image
+                    src={imgBuilder.image(mainImage).url()}
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover hover:scale-105 duration-200 transition-transform ease-in-out"
+                    alt={title}
+                  />
                 </div>
               </div>
             );
