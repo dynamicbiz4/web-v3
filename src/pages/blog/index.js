@@ -29,7 +29,7 @@ const BlogPage = ({ posts }) => {
 
         <section className="container max-w-6xl text-xl my-20 sm:text-lg">
           <div className="mt-8 grid grid-cols-3 gap-8 xmd:grid-cols-2 sm:grid-cols-1">
-            {posts.map(({ title, publishedAt, mainImage, slug, excerpt }, index) => {
+            {posts.slice(0, 3).map(({ title, publishedAt, mainImage, slug, excerpt }, index) => {
               var date = new Date(publishedAt);
 
               return (

@@ -24,11 +24,11 @@ const RecentProjects = ({ projects }) => {
           {projects.slice(0, 3).map(({ title, mainImage }, index) => {
             return (
               <div className={`flex flex-col`} key={index}>
-                <div className="overflow-hidden relative">
+                <div className="overflow-hidden relative h-64">
                   <Image
                     src={imgBuilder.image(mainImage).url()}
-                    width={400}
-                    height={200}
+                    width={500}
+                    height={300}
                     className="w-full h-full object-cover hover:scale-105 duration-200 transition-transform ease-in-out"
                     alt={title}
                   />
